@@ -1,0 +1,43 @@
+.slider {
+    height: calc(100vh - 80px);
+    width: 100vw;
+    margin-top: 30px;
+    .container {
+        height: 80%;
+        display: flex;
+        width: 300vw;
+        transform: translateX(0vw);
+        transition: all 0.5s ease;
+        position: relative;
+        img {
+            height: 100%;
+            width: 100vw;
+            object-fit: cover;
+        }
+    }
+    .icons {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 150px;
+        margin: auto;
+        .icon {
+            width: 50px;
+            height: 50px;
+            margin: 0 10px;
+            cursor: pointer;
+            background-color: rgb(255, 255, 255,.9);
+            border: 1px solid #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        .icon:hover {
+            background-color: rgb(255, 255, 255);
+        }
+    }
+}

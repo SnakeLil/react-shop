@@ -1,0 +1,101 @@
+.catergories{
+    margin: 100px 50px;
+    .wraper{
+
+        display: flex;
+        width: 100%;
+        padding: 15px;
+        height: 650px;
+        gap: 10px;
+        div {
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            gap: 10px;
+            button {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+                width: fit-content;
+                height: fit-content;
+                padding: 5px;
+                border: none;
+                border-radius: 3px;
+                background-color: rgb(240, 248, 255,.3);
+                
+                a {
+                    font-weight: bold;
+                    color: rgb(104, 103, 103);
+                }
+            }
+        }
+        .left {
+            width: 100%;
+            height: 100%;
+            flex: 1;
+            display: flex;
+            flex-direction: column; 
+            
+            div {
+                position: relative;
+                flex: 1;
+                width: 100%;
+                height: 50%;
+                img {
+                    
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .center {
+            flex: 1;
+            div {
+
+                flex: 1;
+                width: 100%;
+                height: 100%;
+                img {
+                    object-fit: cover;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+        .right {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            .top {
+                flex: 1;
+                display: flex;
+                div {
+                    width: 50%;
+                    height: 100%;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                } 
+            }
+            .btm {
+                height: 50%;
+                flex: 1;
+                div {
+                    width: 100%;
+                    height: 100%;
+                    img {
+                        object-fit: cover;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

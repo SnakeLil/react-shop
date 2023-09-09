@@ -1,0 +1,64 @@
+.Checkout {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: antiquewhite;
+    padding: 60px 15vw;
+
+    .checkTitle {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .checkBox {
+        width: 100%;
+        height: 100%;
+        background-color: aliceblue;
+        display: flex;
+
+        .checkLeft {
+            flex: 2;
+            flex-direction: column;
+            gap: 20px;
+            .top {
+                width: 100%;
+                height: 40px;
+                background-color: cadetblue;
+                .checkinput {
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50% !important;
+                }
+            }
+            .btm {
+
+                tbody {
+
+                    tr {
+                        display: flex;
+                        th {
+                            flex: 1;
+
+                            .imgBox {
+                                width: 100px;
+                                height: 100px;
+                                background-color: cadetblue;
+                                .img {
+                                    width: 100%;
+                                    height: 100%;
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+               
+
+            }
+        }
+
+        .checkRight {
+            flex: 1;
+            flex-direction: column;
+        }
+    }
+}

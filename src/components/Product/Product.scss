@@ -1,0 +1,112 @@
+.product{
+    padding: 10px 55px;
+    display: flex;
+    gap: 20px;
+    .left {
+        flex: 1;
+        display: flex;
+        gap: 10px;
+        .imgs {
+            flex: 1;
+            img {
+                width: 100%;
+                aspect-ratio: 1;
+                object-fit: cover;
+                cursor: pointer;
+            }
+            img:hover {
+                border: 2px solid #c8c8c8;
+            }
+        }
+        .mainImg {
+            padding-right: 30px;
+            flex: 5;
+            width: 100%;
+            
+            
+
+            img {
+                width: 100%;
+                max-height: 600px;
+                object-fit: cover;
+            }
+        }
+    }
+    .right {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+
+        .title {
+            color: #454444;
+            font-weight: 400;
+            font-size: 28px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .price {
+            font-size: 28px;
+            font-weight: 600;
+            color: rgb(200, 200, 255);
+        }
+        .content {
+            font-size: 15px;
+            color: gray
+        }
+        .counter {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            button {
+                width: 50px;
+                height: 50px;
+                border: 1px solid rgb(187, 187, 187);
+                background-color: rgb(200, 200, 200);
+                cursor: pointer;
+            }
+            button:hover {
+                background-color: rgb(178, 178, 178); 
+            }
+            span {
+                color: #9f9f9f;
+            }
+        }
+        .add {
+            display: flex;
+            align-items: center;
+            width: fit-content;
+            cursor: pointer;
+            font-weight: bold;
+            padding: 10px 20px;
+            background-color: rgb(146, 223, 249);
+            border: none;
+            border-radius: 5px;
+        }
+        .add:hover {
+            background-color: rgb(125, 214, 244);
+            box-shadow: inset 2px 2px 10px rgb(172, 170, 170);
+        }
+        .link {
+
+            .item {
+                font-size: 15px;
+                color: rgb(146, 223, 249);
+                display: flex;
+                align-items: center;
+            }
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+            font-size: 15px;
+            color: gray;
+            gap: 5px;
+        }
+        .details {
+            width: 40%;
+            font-size: 15px;
+            color: gray;
+        }
+    }
+}

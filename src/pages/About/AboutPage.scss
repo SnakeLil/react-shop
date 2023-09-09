@@ -1,0 +1,82 @@
+.aboutMain {
+    width: 100%;
+    height: calc(100vh - 100px);
+    background-color: rgb(255, 255, 255);
+    padding: 150px 15vw;
+    .ctWraper {
+        display: flex;
+        .contactLeft {
+            flex: 2;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            h2 {
+                font-weight: 400;
+            }
+            .lilsnake {
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                color: rgb(160, 160, 159);
+                font-size: 13px;
+            }
+            h3 {
+                font-weight: 400;
+            }
+            p {
+                font-size: 13px;
+                font-weight: 300;
+            }
+            a {
+                color: #fbb4b4;
+                text-decoration: underline;
+            }
+        }
+        .contactRight {
+            display: flex;
+            align-items: end;
+            gap: 40px;
+            flex: 1;
+            flex-direction: column;
+          .inputBox {
+            height: 40px;
+            width: 50%;
+            
+            position: relative;
+            input {
+                width: 100%;
+                height: 35px;
+                outline: none;
+                padding-left:10px ;
+            }
+            .contactSearch {
+                cursor: pointer;
+                position: absolute;
+                right: 2px;
+                top: 5px;
+            }
+          } 
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: #ebeaea;
+            width: 50%;
+            height: 300px;
+            padding: 20px 20px;
+            li {
+                list-style: none;
+                font-size: 13px;
+                font-weight: 300;
+                a {
+                    font-size: 13px;
+                    font-weight: 300;
+                    color: #1c1c1c;
+                }
+                a:hover {
+                    text-decoration: underline;
+                }
+            }
+          } 
+
+        }
+    }
+}

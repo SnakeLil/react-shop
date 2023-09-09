@@ -1,0 +1,156 @@
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    border-bottom: .1px solid #f0f0f0;
+    .wraper {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .item {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+           
+        }
+        .item:hover {
+            border-bottom: 2px solid #f0f0f0;
+        }
+        .left {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            .item img {
+                width: 20px;
+                height: 20px;
+            }
+
+        }
+        .center {
+            display: flex;
+            align-items: center;
+            font-size: 30px;
+        }
+        .right {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            .icons {
+                display: flex;
+                gap: 15px;
+                cursor: pointer;
+                align-items: center;
+                .search {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    .searchCard {
+                        
+                        position: absolute;
+                        
+                        right: 40px;
+                        display: flex;
+                        input {
+                            height:35px;
+                            width: 300px;
+                            border: 0.5px solid rgb(189, 189, 189);
+                            border-radius: 15px 0 0 15px;
+                            outline: none;
+                            padding-left: 10px
+                        }
+                        button {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 50px;
+                            border: 0.5px solid rgb(189, 189, 189);
+                            border-left: none;
+                            border-radius: 0 15px 15px 0;
+
+                        }
+                    }
+                }
+                .person {
+                   
+                    display: flex;
+                    align-items: center;
+                    position: relative;
+                    .perosonCard {
+                        display: flex;
+                        z-index: 5;
+                        position: absolute;
+                        top: 25px;
+                        right:10px;
+                        width: 200px;
+                        height: 150px;
+                        box-shadow: 0.5px 0.5px 2px rgb(241, 241, 241);
+                        
+                        border-radius: 10px;
+                        background-color: rgb(255, 255, 255);
+                        
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 15px;
+                        h3 {
+                            font-size: 15px;
+                            font-weight: 400;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width: 80%;
+                            height: 30px;
+                            border-bottom: 1px solid rgb(223, 221, 221);
+                            .perTitle {
+                                font-size: 15px;
+                            font-weight: 400;
+                            }
+
+                        }
+                        h3 a:hover {
+                            color: rgb(224, 220, 213);
+
+                        }
+                        a {
+                            color: black;
+                            font-size: 15px;
+                            font-weight: 300;
+                            cursor: pointer;
+                        }
+                        a:hover {
+                            font-weight: 400;
+                        }
+                    }
+                }
+
+                .favorite:hover {
+                    color: rgb(250, 153, 153);
+                }
+                .shoppingCart:hover {
+                    color: rgb(132, 187, 247);
+                }
+                .cart {
+                    position: relative;
+                    span {
+                        position: absolute;
+                        top: -5px;
+                        right: -5px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 15px;
+                        height: 15px;
+                        background-color: rgb(168, 206, 226);
+                        border-radius: 50%;
+                        color: white;
+                    }
+                }
+                .usernameNavbar {
+                    border-bottom: 1px solid rgb(235, 233, 233);
+                }
+            }
+
+        }
+
+    }
+}

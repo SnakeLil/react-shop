@@ -1,0 +1,28 @@
+.featureProducts {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0 120px;
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        h1 {
+            flex: 2;
+            text-transform: uppercase;
+        }
+        span{
+            font-size: 13px;
+            color: gray;
+            flex: 3;
+            word-break: break-all;
+        }
+    }
+    .bottom {
+        margin-top:60px ;
+        padding: 0 50px;
+        display: flex;
+        justify-content: space-around;
+
+    }
+}

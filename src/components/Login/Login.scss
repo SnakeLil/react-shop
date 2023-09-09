@@ -1,0 +1,159 @@
+.login {
+   
+    width: 100%;
+    height: calc(100vh - 100px);
+    padding: 80px 10vw;
+
+    .loginWraper {
+        width: 100%;
+        height: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        p {
+            font-weight: 340;
+        }
+        input {
+            caret-color: #363636;
+            caret-width: 4px;
+        }
+        
+        .LoginLeft {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            border-right: 1px solid #ccc;
+
+             form {
+                width: 50%;
+                height: 100%;
+                background-color: #ffffff;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+
+                .inputItem {
+                    width: 100%;
+                    p {
+                        font-size: 13px;
+                    }
+                    input {
+
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 2px;
+                        padding: 0 20px;
+                        border: 1px solid #ccc;
+                        outline: none;
+                    }
+                } 
+
+                span {
+                    font-size: 10px;
+                    align-self: end;
+                    color: #ccc;
+                    a {
+                        font-size: 10px;
+                        color: #bcbcbc;
+                    }
+                    a:hover {
+                        color: orange;
+                    }
+                }
+                .btn {
+                    width: 100%;
+                    height: 40px;
+                    color: white;
+                    border: none;
+                    font-size: 16px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    background-color: black;
+                }
+                .loginByUn {
+                    background-color: white;
+                    color: black;
+                    border: 1px solid black;
+                }
+                .loginByUn:hover {
+                    background-color: black !important;
+                    color: white;
+                    border: none;
+                }
+                .btn:hover {
+                    background-color: #939393;
+                }
+                .btn:active {
+                    font-size: 14px;
+                }
+
+            }
+        }
+
+        .LoginRight {
+            border-right: none !important;
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            border-right: 1px solid #ccc;
+             form {
+                width: 50%;
+                height: 100%;
+                background-color: #ffffff;
+                
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+
+                .inputItem {
+                    width: 100%;
+                    p {
+                        font-size: 13px;
+                    }
+                    input {
+                        caret-color: #363636;
+                        caret-width: 4px;
+                        width: 100%;
+                        height: 40px;
+                        border-radius: 2px;
+                        padding: 0 20px;
+                        border: 1px solid #ccc;
+                        outline: none;
+                    }
+                } 
+
+                span {
+                    font-size: 10px;
+                    align-self: end;
+                    color: #ccc;
+                    a {
+                        font-size: 10px;
+                        color: #bcbcbc;
+                    }
+                    a:hover {
+                        color: orange;
+                    }
+                }
+                .btn {
+                    width: 100%;
+                    height: 40px;
+                    color: white;
+                    border: none;
+                    font-size: 16px;
+                    cursor: pointer;
+                    font-weight: bold;
+                    background-color: black;
+                }
+                .btn:hover {
+                    background-color: #939393;
+                }
+                .btn:active {
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+}
